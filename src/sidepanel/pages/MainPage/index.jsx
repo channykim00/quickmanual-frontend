@@ -56,7 +56,7 @@ const MainPage = () => {
 
         <div className="mt-16 w-full max-w-md px-4 text-center">
           <p className="mb-2 text-lg text-stone-950">쉬운 사용자 매뉴얼 생성기</p>
-          <h1 className="text-6xl font-extrabold text-black">ezManual</h1>
+          <h1 className="text-5xl font-extrabold text-black">QuickManual</h1>
         </div>
 
         <div className="flex flex-col items-center space-y-4">

@@ -40,10 +40,10 @@ const Login = ({ setIsLoggedIn }) => {
         <div className="flex flex-col items-center space-y-4">
           <img
             src={logoIcon}
-            alt="ezManual Logo"
+            alt="quickmanual Logo"
             className="h-40 w-40"
           />
-          <h1 className="text-5xl font-extrabold text-white">ezManual</h1>
+          <h1 className="text-5xl font-extrabold text-white">QuickManual</h1>
         </div>
 
         <p className="mt-8 text-center font-bold text-white">

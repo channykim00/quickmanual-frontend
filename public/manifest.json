@@ -1,6 +1,6 @@
 {
-  "name": "My Side Panel Extension",
-  "description": "테스트 1",
+  "name": "QuickManual",
+  "description": "클릭 기반 화면 캡처로 빠르게 매뉴얼을 만드는 Chrome 확장 프로그램",
   "version": "1.0",
   "manifest_version": 3,
 
@@ -9,7 +9,7 @@
   "host_permissions": ["<all_urls>"],
 
   "action": {
-    "default_title": "Open Side Panel"
+    "default_title": "QuickManual 열기"
   },
 
   "background": {
@@ -19,6 +19,13 @@
 
   "side_panel": {
     "default_path": "src/sidepanel/index.html"
+  },
+
+  "icons": {
+    "16": "icons/favicon-16x16.png",
+    "32": "icons/favicon-32x32.png",
+    "48": "icons/favicon-48x48.png",
+    "128": "icons/favicon-128x128.png"
   },
 
   "content_scripts": [
